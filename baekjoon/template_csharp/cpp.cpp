@@ -6,6 +6,9 @@ using namespace std;
 
 int main()
 {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
+
     vector<string> msg{"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
 
     for (const string &word : msg)
